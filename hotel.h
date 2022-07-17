@@ -9,7 +9,30 @@
 #include <string>
 using namespace std;
 
+void userInfo();
 
+class hotel
+{
+public:
+    hotel(string Name, int Age, string Address, string Country, string reasonToStay, bool withFamily );    //constructor
+
+    string getName() const;
+    int getAge() const;
+    string getAddress() const;
+    string getCountry() const;
+    string getreasonToStay() const;
+    bool getwithFamily() const;
+    void printDetails() const;
+
+private:
+    string Name;
+    int Age;
+    string Address ;
+    string Country;
+    string reasonToStay;
+    bool withFamily ;
+
+};
 
 
 #endif //CPP_HOTEL_HOTEL_H
