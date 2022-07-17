@@ -1,0 +1,6 @@
+
+
+#ifndef CPP_HOTEL_HOTEL_H
+#define CPP_HOTEL_HOTEL_H
+
+#endif //CPP_HOTEL_HOTEL_H
